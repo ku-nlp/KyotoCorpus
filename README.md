@@ -126,12 +126,9 @@ Document Leads Corpus (KWDLC).
 
 ### Reference ###
 
-* 黒橋禎夫, 長尾眞. 京都大学テキストコーパス・プロジェクト, 言語処理学会 第3回年次大会, pp.115-118, 1997.
-
+* 黒橋禎夫, 長尾眞. 京都大学テキストコーパス・プロジェクト, 言語処理学会 第3回年次大会, pp.115-118, 1997. https://anlp.jp/proceedings/annual_meeting/1997/pdf_dir/D1-1.pdf
 * Sadao Kurohashi and Makoto Nagao. Building a Japanese Parsed Corpus while Improving the Parsing System, In Proceedings of the 1st International Conference on Language Resources and Evaluation (LREC-98), pp.719-724, 1998.
-
-* 河原大輔, 黒橋禎夫, 橋田浩一. 「関係」タグ付きコーパスの作成, 言語処理学会 第8回年次大会, pp.495-498, 2002.
-
+* 河原大輔, 黒橋禎夫, 橋田浩一. 「関係」タグ付きコーパスの作成, 言語処理学会 第8回年次大会, pp.495-498, 2002. https://anlp.jp/proceedings/annual_meeting/2002/pdf_dir/B4-1.pdf
 * Daisuke Kawahara, Sadao Kurohashi and Koiti Hasida. Construction of a Japanese Relevance-tagged Corpus, In Proceedings of the 3rd International Conference on Language Resources and Evaluation (LREC2002), pp.2008-2013, 2002. http://www.lrec-conf.org/proceedings/lrec2002/pdf/302.pdf
 
 
