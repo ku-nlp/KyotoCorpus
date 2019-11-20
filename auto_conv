@@ -32,7 +32,12 @@ do
 done
 shift `expr $OPTIND - 1`
 
-if [ ! -f $CDROM_DIR/mai95.txt ]; then
+MAI95_FILE=$CDROM_DIR/mai95.txt
+if [ -f "$MAI95_FILE" ]; then
+    :
+elif [ -f "$CDROM_DIR/MAI95.txt" ]; then
+    MAI95_FILE=$CDROM_DIR/MAI95.txt
+else
     echo "Not found: $CDROM_DIR/mai95.txt"
     usage
 fi
@@ -41,7 +46,7 @@ make_dir $SYN_DIR
 make_dir $REL_DIR
 
 echo "converting mai95.txt to SGML ..."
-$PERL $BASE_DIR/src/trans.pl < $CDROM_DIR/mai95.txt 2> /dev/null | $PERL $BASE_DIR/src/mainichi.pl $DEST_DIR
+$PERL $BASE_DIR/src/trans.pl < $MAI95_FILE 2> /dev/null | $PERL $BASE_DIR/src/mainichi.pl $DEST_DIR
 
 echo "making KyotoCorpus (syn) ..."
 for i in 01 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17
