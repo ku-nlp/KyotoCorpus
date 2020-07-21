@@ -37,6 +37,10 @@ if [ -f "$MAI95_FILE" ]; then
     :
 elif [ -f "$CDROM_DIR/MAI95.txt" ]; then
     MAI95_FILE=$CDROM_DIR/MAI95.txt
+elif [ -f "$CDROM_DIR/mai1995.txt" ]; then
+    MAI95_FILE=$CDROM_DIR/mai1995.txt
+elif [ -f "$CDROM_DIR/MAI1995.txt" ]; then
+    MAI95_FILE=$CDROM_DIR/MAI1995.txt
 else
     echo "Not found: $CDROM_DIR/mai95.txt"
     usage
@@ -45,7 +49,7 @@ fi
 make_dir $SYN_DIR
 make_dir $REL_DIR
 
-echo "converting mai95.txt to SGML ..."
+echo "converting ${MAI95_FILE}  to SGML ..."
 $PERL $BASE_DIR/src/trans.pl < $MAI95_FILE 2> /dev/null | $PERL $BASE_DIR/src/mainichi.pl $DEST_DIR
 
 echo "making KyotoCorpus (syn) ..."
