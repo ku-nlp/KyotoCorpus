@@ -5,7 +5,7 @@
 This is a text corpus that is manually annotated with various
 linguistic information. It consists of approximately 40,000 sentences
 from Mainichi newspaper in 1995 with morphological and syntactic
-annotations. Out of these sentences, approximately 10,000 sentences
+annotations. Out of these sentences, approximately 16,000 sentences
 are annotated with predicate-argument structures including zero
 anaphora and coreferences.
 
