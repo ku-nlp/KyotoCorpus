@@ -95,6 +95,7 @@ while ( <STDIN> ) {
 
     if (/<\/ENTRY>/) {
 	if ($start_flag) {
+            $article =~ s/\r//g;
 	    &check_article($aid, $title, $article);
 	    # 記事に区切るだけ
 	    # print "$aid\n$title\n$article\n\n";
@@ -105,6 +106,7 @@ while ( <STDIN> ) {
     } elsif (/<C0>/) {
 	/^<C0>(.+)<\/C0>\n/;
 	$aid = $1;
+	$aid =~ s/\r//g;
 	if ($aid =~ /^$DATE/) {
 	    $start_flag = 1;
 	} else {
