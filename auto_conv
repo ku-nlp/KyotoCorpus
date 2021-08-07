@@ -72,7 +72,7 @@ do
 done
 
 echo "making KyotoCorpus (rel) ..."
-for i in 01 03 04 05 06 07 08 09 10 11
+for i in 01 03 04 05 06 07 08 09 10 11 12 13 14
 do
     echo "converting 9501$i (with relation tags) ..."
     $PERL $BASE_DIR/src/num2KNP.pl --without_self_id --rel $BASE_DIR/id/full.id $DEST_DIR/9501$i
