@@ -68,6 +68,7 @@ $first = 1;
 
 while (<STDIN>) {
     chomp;
+    s/\r$//; # 新しいmai1995.txtにはCRが入っているので削除
     ( $tag, $context ) = /＼(.*)＼(.*)/;
     $key = zen2han( $tag );
     $data = transfer( $key, $context );
