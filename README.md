@@ -36,9 +36,16 @@ rel_guideline.pdf.
 - `doc`	annotation guidelines
 - `src`	corpus conversion scripts
 - `id`   the list of document IDs
-    - `./id/all.id`	All IDs
-    - `./id/syntax-only.id`	IDs of the corpus annotated only with morphology and dependencies
-    - `./id/full.id`	IDs of the corpus annotated with predicate-argument structures (PAS) and coreferences
+  - `all.id` all IDs
+  - `train.id` train IDs for parsing
+  - `test.id` test IDs for both tests of PAS analysis and parsing
+  - `full` the list of IDs of the corpus with annotations of predicate-argument structures (PAS), and coreferences
+    - `all.id` all IDs
+    - `train.id` train IDs for PAS analysis
+    - `dev.id` dev IDs for PAS analysis
+    - `test.id` test IDs for PAS analysis
+  - `syntax-only` the list of IDs of the corpus with syntax-only annotations
+    - `all.id` all IDs
 
 
 ### Conversion to the complete annotated corpus ###
