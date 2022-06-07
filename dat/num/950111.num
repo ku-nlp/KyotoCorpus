@@ -48928,7 +48928,7 @@ EOS
 59-2 もっきゅう * 名詞 6 普通名詞 1 * 0 * 0
 61-1 を * 助詞 9 格助詞 1 * 0 * 0
 * 17 -1D
-+ 20 -1D <rel type="ガ" target="不特定:人"/><rel type="ガ" mode="？" target="神社" sid="950111175-006" id="18"/><rel type="ヲ" target="毬杖" sid="950111175-007" id="18"/><rel type="ヲ" mode="AND" target="毬" sid="950111175-007" id="22"/><rel type="ニ" target="参考" sid="950111175-007" id="17"/><rel type="ニ" mode="？" target="なし"/>
++ 20 -1D <rel type="ガ" target="不特定:人"/><rel type="ガ" mode="？" target="神社" sid="950111175-006" id="18"/><rel type="ヲ" target="毬杖" sid="950111175-007" id="18"/><rel type="ヲ" mode="AND" target="木毬" sid="950111175-007" id="19"/><rel type="ニ" target="参考" sid="950111175-007" id="17"/><rel type="ニ" mode="？" target="なし"/>
 62-2 ふくげん * 名詞 6 サ変名詞 2 * 0 * 0
 64-2 した する 動詞 2 * 0 サ変動詞 16 タ形 10
 66-1 。 * 特殊 1 句点 1 * 0 * 0
