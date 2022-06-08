@@ -70553,7 +70553,7 @@ EOS
 + 11 12D
 33-3 こうみょうに 巧妙だ 形容詞 3 * 0 ナ形容詞 21 ダ列基本連用形 8
 * 9 11P
-+ 12 14P <rel type="ヲ" target="書" sid="950111259-002" id="10"/><rel type="ガ" target="販売" sid="950111259-002" id="16"/><rel type="ニ" target="不特定:人 1"/>
++ 12 14P <rel type="ヲ" target="書" sid="950111259-002" id="10"/><rel type="ガ" target="販売" sid="950111259-002" id="16"/><rel type="ニ" target="不特定:人1"/>
 36-2 へんそう * 名詞 6 サ変名詞 2 * 0 * 0
 38-1 さ する 動詞 2 * 0 サ変動詞 16 未然形 3
 39-1 せ せる 接尾辞 14 動詞性接尾辞 7 母音動詞 1 基本連用形 8
@@ -70563,13 +70563,13 @@ EOS
 41-2 だいきん * 名詞 6 普通名詞 1 * 0 * 0
 43-1 を * 助詞 9 格助詞 1 * 0 * 0
 * 11 12D
-+ 14 16D <rel type="ヲ" target="代金" sid="950111259-002" id="13"/><rel type="ガ" target="販売" sid="950111259-002" id="16"/><rel type="ニ" target="不特定:人 1"/>
++ 14 16D <rel type="ヲ" target="代金" sid="950111259-002" id="13"/><rel type="ガ" target="販売" sid="950111259-002" id="16"/><rel type="ニ" target="不特定:人1"/>
 44-2 せいきゅう * 名詞 6 サ変名詞 2 * 0 * 0
 46-2 する する 動詞 2 * 0 サ変動詞 16 基本形 2
 * 12 13D
 + 15 16D
 48-2 つうしん * 名詞 6 サ変名詞 2 * 0 * 0
-+ 16 17D <rel type="ガ" target="不特定:人2"/><rel type="デ" target="通信" sid="950111259-002" id="15"/><rel type="ヲ" target="録" sid="950111259-002" id="1"/><rel type="ニ" target="不特定:人 1"/><rel type="ニ" mode="AND" target="不特定:人 "/>
++ 16 17D <rel type="ガ" target="不特定:人2"/><rel type="デ" target="通信" sid="950111259-002" id="15"/><rel type="ヲ" target="録" sid="950111259-002" id="1"/><rel type="ニ" target="不特定:人1"/><rel type="ニ" mode="AND" target="不特定:人 "/>
 50-2 はんばい * 名詞 6 サ変名詞 2 * 0 * 0
 52-1 へ * 助詞 9 格助詞 1 * 0 * 0
 53-1 の * 助詞 9 接続助詞 3 * 0 * 0
@@ -70709,7 +70709,7 @@ EOS
 * 3 4D
 + 5 6D <rel type="ガ" target="人" sid="950111259-004" id="6"/>
 13-2 ちょめい 著名だ 形容詞 3 * 0 ナノ形容詞 22 語幹 1
-+ 6 7D <rel type="=≒" target="教授" sid="950111259-004" id="2"/><rel type="=≒" mode="AND" target="役員" sid="950111259-004" id="4"/><rel type="=" mode="AND" target="不特定:人 1"/>
++ 6 7D <rel type="=≒" target="教授" sid="950111259-004" id="2"/><rel type="=≒" mode="AND" target="役員" sid="950111259-004" id="4"/><rel type="=" mode="AND" target="不特定:人1"/>
 15-1 じん * 名詞 6 普通名詞 1 * 0 * 0
 16-1 が * 助詞 9 格助詞 1 * 0 * 0
 * 4 8D
