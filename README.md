@@ -14,7 +14,7 @@ anaphora and coreferences.
 This repository does not include original sentences but include only
 annotation information. To recover the complete annotated corpus, it
 is necessary to obtain the Mainichi 1995 CD-ROM. The information of
-this CD-ROM is available at http://www.nichigai.co.jp/sales/mainichi/mainichi-data.html
+this CD-ROM is available at https://www.nichigai.co.jp/sales/corpus.html
 
 ## Notes on annotation guidelines
 
