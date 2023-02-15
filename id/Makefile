@@ -1,4 +1,4 @@
-# 以下の id ファイルから全ての id ファイルを生成する
+# Generate all id files referring to the following files
 # - all.id
 # - full/train.id
 # - full/dev.id

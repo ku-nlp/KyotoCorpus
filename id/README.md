@@ -1,4 +1,7 @@
 # IDs of Kyoto Corpus
 
-`test.id` and `train.id` contain the ID of test/train splits used for training and evaluating morphological analyzers
-and parsers.
+This directory contains:
+- `*.id`: the list of document IDs of the Kyoto Corpus
+- `Makefile`: a utility script to generate ID files
+
+For more details, see the [README.md](../README.md) in the root directory.
