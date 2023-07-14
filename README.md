@@ -125,6 +125,13 @@ Note that this format is slightly different from Kyoto University Text
 Corpus 4.0, but it is the same as KNP and Kyoto University Web
 Document Leads Corpus (KWDLC).
 
+## Terms of use
+*Disclaimer*: The developers, Kurohashi Laboratory of Kyoto University and Kawahara Laboratory of Waseda University, are not liable for any damages incurred from the use of the Kyoto University Text Corpus.
+
+*Commercial Use*: If you intend to use the corpus for commercial purposes, kindly include a statement in the documentation or other materials of your commercial system acknowledging the utilization of the Kyoto University Text Corpus.
+
+For inquiries related to the commercial use of the Mainichi Shimbun original texts, we recommend contacting The Mainichi Newspapers Co. or Nichigai Associates, Inc.
+
 ## Reference
 
 - 黒橋禎夫, 長尾眞. 京都大学テキストコーパス・プロジェクト, 言語処理学会 第3回年次大会, pp.115-118, 1997. https://anlp.jp/proceedings/annual_meeting/1997/pdf_dir/D1-1.pdf
